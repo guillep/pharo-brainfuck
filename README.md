@@ -13,10 +13,14 @@ This repository contains a brainfuck (https://es.wikipedia.org/wiki/Brainfuck) i
  
  Sets the output stream for a brainfuck program. This is the stream that will be written to when the write operation (`.`) is executed. By default, if an output stream is not set, the standard output will be used.
  
- Example: `BFInterpreter new outputStrea: Transcript`.
+ Example: `BFInterpreter new outputStream: Transcript`.
  
  - `inputStream: aStream`
  
  Sets the input stream for a brainfuck program. This is the stream that will be read to when the read operation (`,`) is executed. By default, if an input stream is not set, the standard input will be used.
  
- Example: `BFInterpreter new outputStrea: '88123' readStream`.
+ Example: `BFInterpreter new inputStream: '88123' readStream`.
+
+## Examples
+
+`BFInterpreter` class side contains a couple of examples of brainfuck code to execute.

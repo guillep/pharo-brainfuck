@@ -1,0 +1,19 @@
+{
+	"category" : "Brainfuck",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "GuillermoPolito 1/12/2017 14:50",
+	"instvars" : [
+		"pointer",
+		"bytes",
+		"outputStream",
+		"inputStream",
+		"program",
+		"instructionPointer" ],
+	"name" : "BFInterpreter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
